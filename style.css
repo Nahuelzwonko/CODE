@@ -18,20 +18,27 @@ html{
     background: #111111;
     font-family: 'Signika Negative', sans-serif;
 }
+.menu__1{
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+}
 .menu{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    /* align-items: flex-end; */
     max-width: 720px;
     margin: 0 auto;
-    height: 100vh;
+    height: 50px;
     list-style: none;
 }
 .menu li{
-    width: 125px;
+    justify-content: end ;
+    width: 100px;
     height: 50px;
     transition: backround-position-x 0.9s linear;
     text-align: center;
+    /* align-items: flex-end; */
 }
 .menu li a{
     font-size: 22px;
