@@ -35,7 +35,7 @@ a {
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: grey;
+  background-color: rgba(70, 66, 66, 0.411);
 }
 
 .header .logo {
