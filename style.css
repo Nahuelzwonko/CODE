@@ -3,7 +3,11 @@ body {
   font-family: Helvetica, sans-serif;
   background-color: #111  ;
 }
-
+*,
+*::after,
+*::before{
+  
+}
 a {
   color: #fff;
 }
@@ -142,4 +146,8 @@ a {
   .header .menu-icon {
     display: none;
   }
+}
+.nombre{
+  color: white;
+  z-index: 9999;
 }
