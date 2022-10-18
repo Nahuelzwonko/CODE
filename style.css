@@ -22,16 +22,12 @@ html{
     display: flex;
     width: 100%;
     align-items: flex-end;
+    box-shadow: 0 3px 12px 0 rgba(243, 232, 232, 0.713);
 }
 .menu{
     display: flex;
-<<<<<<< Updated upstream
     justify-content: space-between;
     /* align-items: flex-end; */
-=======
-    justify-content: flex-end;
-    align-items: top;
->>>>>>> Stashed changes
     max-width: 720px;
     margin: 0 auto;
     height: 50px;
@@ -57,7 +53,7 @@ html{
           animation: line 1s;
 }
 .menu li:hover a{
-    color: #ccff33;
+    color: #fff;
 }
 .menu li:not(:last-child){
     margin-right: 30px;
@@ -71,4 +67,24 @@ html{
     0%{
 background-position-x: 390px;
     }
+}
+.logo{
+    width: 100px;
+    margin-left: 100px;
+}
+/*Comienzo de section titulo*/
+.tituloPadre{
+    display: flex;
+    height: 200px;
+    padding-top: 15%;
+}
+.titulo h1{
+    color: #fff;
+    margin-bottom: 35px;
+    font-size: 80px;
+    margin-left: 100px;
+}
+.titulo p{
+    color: #fff;
+    margin-left: 100px;
 }
