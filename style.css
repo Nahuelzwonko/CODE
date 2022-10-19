@@ -4,7 +4,16 @@
   box-sizing: border-box;
 }
 body{
-  background-color: #111111;
+  background-image: url(./img/fondo/1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+@media (max-width: 764px) {
+  body{
+    background-image: url(./img/fondo/1.jpg);
+    background-repeat: repeat;
+    background-size: auto;
+  }
 }
 
 header{
@@ -12,7 +21,30 @@ header{
   height: auto;
   position: relative;
 }
-video{
+/* video{
   width: 100%;
   height: 100%;
+} */
+.video {
+  position: fixed;
+  top: 50%; left: 50%;
+  z-index: 999;
+  min-width: 100%;
+  min-height: 100%;
+  width: 50px;
+  height: 80px;
+  transform: translate(-50%, -50%);
+}
+@media (max-width:764px){
+  .video{
+    position: fixed;
+
+
+    max-width: 100%;
+    max-height: 100%;
+    width: 100px;
+    height: 100px;
+    transform: translate(-50%, -50%);
+
+  }
 }
