@@ -4,9 +4,7 @@
   box-sizing: border-box;
 }
 body{
-  background-image: url(./img/fondo/1.jpg);
-  background-repeat: repeat;
-  background-size: 100%;
+background-color: #111111;
 }
 @media (max-width: 764px) {
   body{
@@ -22,23 +20,14 @@ body{
   height: 100%;
 }
 
-/* header{
-  width: 100%;
-  height: auto;
-  position: relative;
-} */
-/* video{
-  width: 100%;
-  height: 100%;
-} */
 .video {
   position: fixed;
   top: 50%; left: 50%;
   z-index: 999;
-  min-width: 100%;
-  min-height: 100%;
-  width: 50px;
-  height: 80px;
+  min-width: 70%;
+  min-height: 70%;
+  width: 20px;
+  height: 20px;
   transform: translate(-50%, -50%);
 }
 @media (max-width:764px){
@@ -54,3 +43,4 @@ body{
     height: 80px;
   }
 }
+/* social media icons */
