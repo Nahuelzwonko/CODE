@@ -50,6 +50,7 @@ body {
 }
 /* social media icons */
 .iconos {
+  
   margin-top: 580px;
   top: 400px;
   display: flex;
@@ -93,7 +94,7 @@ body {
   }
 }
 .social-networks {
- /*  z-index: 20; */
+  z-index: 20;
   display: flex;
   margin: 0;
   padding: 0 0px;
