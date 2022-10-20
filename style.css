@@ -1,12 +1,8 @@
-*{
-  margin:0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body{
+body {
   background-color: #111111;
 }
-.container{
+
+.container {
   display: flex;
   align-content: center;
   width: 100%;
@@ -15,18 +11,20 @@ body{
 
 .video {
   position: fixed;
-  top: 50%; left: 50%;
-  z-index: 999;
+  top: 50%;
+  left: 50%;
   min-width: 70%;
   min-height: 70%;
   width: 20px;
   height: 20px;
   transform: translate(-50%, -50%);
 }
-@media (max-width:764px){
-  .video{
+
+@media (max-width:764px) {
+  .video {
     position: fixed;
-    top: 50%; left: 50%;
+    top: 50%;
+    left: 50%;
     min-width: 100%;
     min-height: 100%;
     width: 100px;
@@ -36,4 +34,47 @@ body{
     height: 80px;
   }
 }
+
 /* social media icons */
+.iconos {
+  margin-top: 580px;
+  top: 400px;
+  display: flex;
+  justify-content: center;
+  z-index: 20;
+}
+@media(max-width: 764px){
+  .iconos{
+    margin-top: 550px;
+  }
+}
+
+body {
+  background-color: #111111;
+}
+
+.img-1 {
+  width: 50px;
+}
+@media (max-width:764px){
+  .img-1{
+    width: 40px;
+  }
+}
+.social-networks {
+  z-index: 20;
+  display: flex;
+  margin: 0;
+  padding: 0 20px;
+  font-size: 0;
+  text-align: center;
+}
+
+.social-networks ul li {
+  display: inline-block;
+}
+
+
+.social-networks  li img {
+  padding: 0 20px;
+}
